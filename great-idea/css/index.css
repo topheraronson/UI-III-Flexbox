@@ -172,3 +172,38 @@ footer p {
 	border-bottom: 1px solid black;
 	padding-bottom: 30px;
 }
+
+.services h2 {
+	font-size: 24px;
+}
+
+.boxes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 30px;
+	border-bottom: 1px solid black;
+}
+
+.box {
+	background: #f4f3f4;
+	width: 48%;
+	border: 1px solid black;
+	margin: 5px 0;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+.box a {
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin: 20px 0;
+	width: 35%;
+	text-align: center;
+	background-color: #fff;
+}
+

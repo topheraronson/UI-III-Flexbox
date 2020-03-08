@@ -207,3 +207,18 @@ footer p {
 	background-color: #fff;
 }
 
+.facts {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0;
+}
+
+.facts div {
+	width: 49%;
+	margin: 15px;
+}
+
+ul {
+	list-style: disc inside;
+	margin: 10px 0;
+  }
